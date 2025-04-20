@@ -1,0 +1,11 @@
+{
+  "name": "express-ts-starter",
+  "version": "1.0.0",
+  "description": "Express with Typescript and Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aghnat Hasya Sayyidina",
+  "license": "ISC"
+}
