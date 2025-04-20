@@ -9,6 +9,10 @@
   "author": "Aghnat Hasya Sayyidina",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.1.0",
     "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
   }
 }
