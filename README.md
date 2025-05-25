@@ -12,12 +12,22 @@
 ### Installation
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/AghnatHs/express-ts-starter.git
 
+# 2. Move into the project directory
 cd express-ts-starter
 
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-# TODO: To Be Continued.....
+# 4. Set up environment variables
+cp .env.example .env
+# Edit the .env file with your DB credentials and config
+
+# 5. Set up the database (Prisma)
+npx prisma migrate dev
+npx prisma generate
+
+# 6. Run the app in development mode
+npm run dev
